@@ -1,3 +1,5 @@
+name: initial
+
 services:
   mongodb1:
     container_name: mongodb1
@@ -18,7 +20,6 @@ services:
     environment:
       MONGODB_URL: "mongodb://mongodb1"
       MONGODB_DATABASE_NAME: "somedb"
-
 
 volumes:
   mongodb1_data_container:
